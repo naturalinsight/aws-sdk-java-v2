@@ -35,10 +35,8 @@ import software.amazon.awssdk.services.cloudformation.model.ValidateTemplateRequ
 import software.amazon.awssdk.services.cloudformation.model.ValidateTemplateResponse;
 
 /**
- * TODO Remove Ignore
  * Integration tests of the template-related API of CloudFormation.
  */
-@Ignore
 public class TemplateIntegrationTest extends CloudFormationIntegrationTestBase {
 
     private static final String TEMPLATE_DESCRIPTION = "Template Description";
